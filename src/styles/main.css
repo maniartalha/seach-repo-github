@@ -1,0 +1,129 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+
+#content {
+	width: inherit;
+    height: inherit;
+}
+
+
+.search-container {
+	height: inherit;
+    width: 100%;
+    overflow-y: auto;
+
+}
+
+.search-form {
+	margin: 10px;
+	position: relative;
+}
+
+.search-form input {
+    padding: 15px;
+    width: 50%;
+    float: left;
+    border-right: none;
+    border: 1px solid #eee;
+    border-right: none;
+    outline: none;
+    padding-right: 40px;
+}
+
+.sort-field select {
+	float: none;
+    padding: 14px;
+    width: 100%;
+    border: 1px solid #eee;
+    background: #fff;
+    outline: none;
+}
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.loading {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.sort-field  {
+	float: left;
+    width: 15%
+} 
+
+p.no-data {
+	font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 55px;
+    color: #bbb;
+}
+
+.clear-field {
+	position: absolute;
+    margin-left: -25px;
+    margin-top: 13px;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+
+.sort-field.disabled {
+	pointer-events:none;
+}
+
+.sort-field.disabled select {
+	background-color: #f4f4f4;
+}
+
+.card-detail {
+	width: 29.33%;
+    float: left;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-detail img {
+	width: 20%;
+   	float: left;
+}
+
+span.name {
+	font-size: 16px;
+    margin-left: 15px;
+    color: #666;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.search-wrapper {
+	float: none;
+	margin-top : 20px;
+}
+

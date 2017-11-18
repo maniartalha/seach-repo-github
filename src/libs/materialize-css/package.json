@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "D:\\flow-express\\src\\assets\\libs\\materialize-css-0.97.0.tgz",
+      "D:\\flow-express"
+    ]
+  ],
+  "_from": "src\\assets\\libs\\materialize-css-0.97.0.tgz",
+  "_id": "materialize-css@0.97.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/materialize-css",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": null,
+    "raw": "D:\\flow-express\\src\\assets\\libs\\materialize-css-0.97.0.tgz",
+    "rawSpec": "D:\\flow-express\\src\\assets\\libs\\materialize-css-0.97.0.tgz",
+    "scope": null,
+    "spec": "D:\\flow-express\\src\\assets\\libs\\materialize-css-0.97.0.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "file:src\\assets\\libs\\materialize-css-0.97.0.tgz",
+  "_shasum": "6e50b6e44f18c40b209231e3759fc17a4f23d731",
+  "_shrinkwrap": null,
+  "_spec": "D:\\flow-express\\src\\assets\\libs\\materialize-css-0.97.0.tgz",
+  "_where": "D:\\flow-express",
+  "author": {
+    "name": "Alvin Wang, Alan Chang"
+  },
+  "bin": {
+    "materialize-src-v0.97.0.zip": "bin\\materialize-src-v0.97.0.zip",
+    "materialize-v0.97.0.zip": "bin\\materialize-v0.97.0.zip",
+    "materialize.css": "bin\\materialize.css",
+    "materialize.js": "bin\\materialize.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Dogfalo/materialize/issues"
+  },
+  "dependencies": {},
+  "description": "Builds Materialize distribution packages",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.3.0",
+    "grunt-browser-sync": "^2.1.1",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "0.5.x",
+    "grunt-contrib-compress": "^0.12.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.4.2",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-cssmin": "0.6.x",
+    "grunt-contrib-jade": "0.8.x",
+    "grunt-contrib-uglify": "0.2.x",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-notify": "^0.4.1",
+    "grunt-remove-logging": "^0.2.0",
+    "grunt-rename": "^0.1.4",
+    "grunt-sass": "^0.18.1",
+    "grunt-text-replace": "^0.4.0",
+    "node-sass": "^2.1.1"
+  },
+  "directories": {
+    "bin": "bin",
+    "font": "font",
+    "sass": "sass"
+  },
+  "engine": "node >= 0.10",
+  "homepage": "https://github.com/Dogfalo/materialize",
+  "name": "materialize-css",
+  "optionalDependencies": {},
+  "readme": "![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)\n===========\n\n[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\nMaterialize, a CSS Framework based on material design\n\n### Current Version : v0.97.0\n\n## Sass Requirements:\n- Ruby Sass 3.3+, LibSass 0.6+\n\n## Supported Browsers:\nChrome 35+, Firefox 31+, Safari 7+, IE 10+\n\n## Changelog\n- v0.97.0 (June 21, 2015)\n  - **Documentation changed to use Official Google Icon web font**\n  - **Input errors added**\n  - Flicker on Firefox on dropdowns fixed\n  - Pagination made more responsive\n  - Modal now prevents scrolling\n  - Modal animation added\n  - Support for multiple modals added\n  - Programmatic control of FAB to open/close added\n  - Programmatic control of slider to play/pause added\n  - Plus many more bug fixes\n- v0.96.1 (April 6, 2015)\n  - Dropdown Fixes\n  - Materialize functions fixed for Meteor\n- v0.96.0 (April 1, 2015)\n  - **Toasts, transitions, scrollfire added under Materialize namespace**\n  - **Dropdown is now created as a child of its parent**\n  - Collapsibles supports nesting\n  - Modal Bottom Sheet added\n  - Indeterminate Checkboxes added\n  - New Checkbox Style Added\n  - Text Inputs supports placeholder/readonly\n  - Google Inbox-like Collapsible added\n  - Text Character Counter added\n  - Waves no longer breaks on SVG's\n\n- v0.95.3 (Feb 25, 2015)\n  - Parallax image loading / responsiveness fixes\n  - Date picker supports month/year as dropdown\n  - Dismissable collection items\n  - Avatar collection items\n  - Pagination Added\n  - ScrollFire fixes\n\n\n## Contributing\n[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dogfalo/materialize.git"
+  },
+  "url": "http://materializecss.com/",
+  "version": "0.97.0"
+}
